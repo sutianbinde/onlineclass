@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SPA</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 解决IE9的 对m媒体查询的兼容性-->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+</head>
+<body>
+    <div id="header"></div>
+
+    <!--中间部分-->
+    <div class="container">
+        <div class="row about">
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <img src="images/1.jpg" alt="" class="img-responsive" />
+            </div>
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 right">
+                <h3>Nisi Ut Aliquid Ex Ea Commodi Consequatur</h3>
+                <h4>MAGNAM ALIQUAM QUAERAT VOLUPTATEM QUIS</h4>
+                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.</p>
+                <a href="detail.html" class="btn btn-success">Learn More</a>
+            </div>
+        </div>
+        <div class="row products">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img src="images/i_1.jpg" alt="" class="img-responsive"/>
+                <h3>Magnam Aliquam Quaerat Voluptatem Quis Dolorem</h3>
+                <p>Neque porro quisquam est,reprehenderit qui in ea voluptate velit esse qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                <a href="detail.html" class="btn btn-success">Learn More</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img src="images/i_2.jpg" alt="" class="img-responsive"/>
+                <h3>Magnam Aliquam Quaerat Voluptatem Quis Dolorem</h3>
+                <p>Neque porro quisquam est,reprehenderit qui in ea voluptate velit esse qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                <a href="detail.html" class="btn btn-success">Learn More</a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img src="images/i_3.jpg" alt="" class="img-responsive"/>
+                <h3>Magnam Aliquam Quaerat Voluptatem Quis Dolorem</h3>
+                <p>Neque porro quisquam est,reprehenderit qui in ea voluptate velit esse qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
+                <a href="detail.html" class="btn btn-success">Learn More</a>
+            </div>
+        </div>
+
+        <!--轮播图-->
+        <div id="carousel-example-generic" class="carousel slide index_slider" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <!--1屏-->
+                <div class="item active row">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 item_left">
+                        <img src="images/xn_banner/11.jpg" class="img-responsive" alt="...">
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 item_right">
+                        <h3>Nisi Ut Aliquid Ex Ea Commodi Consequatur</h3>
+                        <h4>MAGNAM ALIQUAM QUAERAT VOLUPTATEM QUIS</h4>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
+                        <a href="detail.html" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+                <!--2屏-->
+                <div class="item row">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                        <img src="images/xn_banner/31.jpg" class="img-responsive" alt="...">
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                        <h3>Nisi Ut Aliquid Ex Ea Commodi Consequatur</h3>
+                        <h4>MAGNAM ALIQUAM QUAERAT VOLUPTATEM QUIS</h4>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
+                        <a href="detail.html" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+                <!--3屏-->
+                <div class="item row">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                        <img src="images/xn_banner/32.png" class="img-responsive" alt="...">
+                    </div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                        <h3>Nisi Ut Aliquid Ex Ea Commodi Consequatur</h3>
+                        <h4>MAGNAM ALIQUAM QUAERAT VOLUPTATEM QUIS</h4>
+                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
+                        <a href="detail.html" class="btn btn-success">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <!--<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>-->
+        </div>
+
+    </div>
+    <!--联系我们-->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                    <h3>Keep In Touch</h3>
+                    <p>We Will give you latest information about spa.</p>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 contact_form">
+                    <input type="email" class="form-control" id="" placeholder="Enter Your Email ...">
+                    <button class="btn btn-success">&nbsp;  </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="footer"></div>
+
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+    </script>
+</body>
+</html>

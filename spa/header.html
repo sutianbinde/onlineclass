@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"/>
+    <style>
+        .header_box{
+            min-height: 300px;
+        }
+        .header_box a{
+            color: #fff;
+        }
+        .header_box .pull-left a{
+            display: block;
+            padding: 2em 1em 1em;
+            background: #c6c5c0;
+            font-size: 32px;
+            text-align: center;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        .header_box .glyphicon-class{
+            display: block;
+            word-wrap: break-word;
+            font-size: 16px;
+        }
+        .header_middle{
+            position: relative;
+            height: 150px;
+            width: 575px;
+        }
+        .header_middle ul{
+            overflow: hidden;
+            display: block;
+        }
+        .header_middle li{
+            float: left;
+            margin-left: 10px;
+            position: relative;
+        }
+        .header_middle li a{
+            font-size: 16px;
+            display: block;
+            padding: 3em 1.5em 2em;
+            text-align: center;
+            /*background: #6ea145;*/
+            position: relative;
+            z-index: 2;
+        }
+        .header_middle li:after{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 0;
+            background: #6ea145;
+            z-index: 0;
+            transition: all 0.3s ease;
+        }
+        .header_middle li.active:after{
+            height: 100%;
+        }
+        .header_middle li:hover:after{
+            height: 100%;
+        }
+        .header_middle li span{
+            display: block;
+            margin-top:5px
+        }
+        .header_right{
+            overflow: hidden;
+            padding-top: 70px;
+        }
+        .header_right a{
+            float: left;
+            width: 32px;
+            height: 32px;
+            background: url("images/icon-tb.png") -5px -13px no-repeat;
+            margin-left: 5px;
+        }
+        .header_right a.g{
+            background-position: -50px  -14px;
+        }
+        .header_right a.v{
+            background-position: -90px -14px;
+        }
+        .header_right a:hover{
+            background-position-y: -59px;
+        }
+        .header_middle .menu{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            margin-left: -20px;
+            margin-top: -20px;
+            cursor: pointer;
+            display: none;
+        }
+        .header_info{
+            color: #fff;
+            padding: 0 10% 10% 20%;
+            margin-top: 80px;
+            display: none;
+        }
+        .header_info p{
+            width: 70%;
+        }
+
+
+        @media (min-width: 992px) {
+            .header_middle ul{
+                display: block !important;
+            }
+        }
+        @media (max-width: 991px){
+            .header_middle .menu{
+                display: block;
+            }
+            .header_middle{
+                width: 100%;
+            }
+            .header_middle ul{
+                display: none;
+                background: #c6c5c0;
+                position: absolute;
+                left: 0;
+                top: 130px;
+                width: 100%;
+            }
+            .header_middle ul li{
+                width: 100%;
+                margin: 0;
+            }
+            .header_middle li a{
+                padding: 1em;
+            }
+            .header_info{
+                padding: 0 10% 10% 10%;
+                margin-top: 80px;
+            }
+            .header_info p{
+                width: 100%;
+            }
+        }
+        @media (max-width: 768px){
+            .header_info{
+                padding: 0 0 10%;
+                margin-top: 40px;
+            }
+            .header_info p{
+                width: 100%;
+            }
+        }
+    </style>
+
+    <!--引入 谷歌的字体库-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+          rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic"
+          rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container header_box">
+        <div class="pull-left">
+            <a href="home.html#0">
+                <span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>&nbsp;Spa
+                <span class="glyphicon-class">Magic Of Soul</span>
+            </a>
+        </div>
+        <div class="pull-right header_right">
+            <a href="" class="facebook"></a>
+            <a href="" class="g"></a>
+            <a href="" class="v"></a>
+        </div>
+        <div class="center-block header_middle">
+            <span class="menu"><img src="images/menu.png" alt=""/></span>
+            <ul>
+                <li class="active"><a href="index.html#0">Home<span class="glyphicon glyphicon-home" aria-hidden="true"></span></a></li>
+                <li><a href="services.html#1">Services<span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a></li>
+                <li><a href="about.html#2">About<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span></a></li>
+                <li><a href="blog.html#3">Blog<span class="glyphicon glyphicon-picture" aria-hidden="true"></span></a></li>
+                <li><a href="contact.html#4">Contact<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+        <div class="header_info">
+            <h1>Feeling The Life In A Different Way</h1>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+            <a href="detail.html" class="btn btn-success">Learn More</a>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(".header_middle .menu").click(function(){
+            $(".header_middle ul"). slideToggle();
+        });
+        var navIndex = window.location.hash.substr(1);
+        $(".header_middle li").removeClass("active").eq(navIndex).addClass("active");
+    </script>
+</body>
+</html>

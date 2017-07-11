@@ -1,0 +1,25 @@
+body{
+    font-family: 'Open Sans', sans-serif !important;
+}
+a{
+    cursor: pointer;
+}
+ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+a:hover{
+    text-decoration: none;
+}
+#header{
+    background:url("../images/banner.jpg");
+}
+h3, h1, h4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.btn-success{
+    border-radius: 0 !important;
+    padding: 10px 25px;
+    background-color: #6ea145 !important;
+}

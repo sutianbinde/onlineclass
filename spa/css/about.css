@@ -1,0 +1,14 @@
+.about{
+    margin-top: 6em;
+    margin-bottom: 6em;
+    text-align: center;
+}
+.about h3{
+    font-size: 4em;
+    color: #6ea145;
+    margin-top: 1em;
+}
+.about p{
+    color: #999;
+    font-size: 1.5em;
+}

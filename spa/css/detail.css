@@ -1,0 +1,169 @@
+.blog_wrap{
+    margin-top: 4em;
+    margin-bottom: 4em;
+}
+.blog_wrap h3{
+    color: #6ea145;
+    font-size: 2.5em;
+}
+.blog_wrap h4 a{
+    color: #c6c5c0;
+    font-size: 1.8em;
+}
+.blog_wrap h4 a:hover{
+    color: #888;
+}
+.blog_wrap p{
+    color: #999;
+    line-height: 2em;
+}
+.blog_left ul{
+    margin: 2em 0;
+    overflow: hidden;
+}
+.blog_left .item{
+    margin-bottom: 6em;
+}
+.blog_left li{
+    float: left;
+    color: #c6c5c0;
+    cursor: pointer;
+    margin-right: 2em;
+}
+.blog_left li:hover{
+    float: left;
+    color: #999;
+}
+.blog_left li .glyphicon{
+    margin-right: 1em;
+}
+.blog_right form{
+    padding-top: 1em;
+}
+.blog_right .form-control{
+    border-radius: 0;
+    margin-bottom: 1em;
+}
+.blog_right .checkbox input{
+    height: 20px;
+    width: 20px;
+    border-radius: 0;
+}
+.blog_right .checkbox span{
+    line-height: 30px;
+    margin-left: 1em;
+}
+.blog_right .form_left{
+     padding-left: 0;
+ }
+.blog_right .form_right{
+    padding: 1em 0 0 0;
+}
+.blog_right .form_right a{
+    float: right;
+}
+.posts .left{
+    width: 35%;
+    float: left;
+}
+.posts .right{
+    width: 60%;
+    float: right;
+}
+.posts h3{
+    font-size: 2em;
+}
+.posts h5{
+    color: #6ea145;
+}
+.posts .btn-primary{
+    border-radius: 0;
+}
+.blog_right .item{
+    margin: 2em 0 3em;
+    overflow: hidden;
+}
+
+.comments .left{
+    width: 25%;
+}
+.comments .right{
+    width: 70%;
+}
+.comments > .item > p{
+    margin-top: 1em;
+}
+
+.writer{
+    border: 1px solid #F2F2F2;
+    padding: 3em;
+    overflow: hidden;
+}
+.writer h3{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+.writer .left{
+    float: left;
+    width: 15%;
+}
+.writer .right{
+    float: right;
+    width: 85%;
+}
+.writer .right div{
+    color: #727272;
+}
+.writer .right a{
+    color: #C8C8C8;
+}
+
+.related h3{
+    margin-bottom: 1em;
+}
+.related p{
+    margin: 1em;
+}
+.related img:hover{
+    border-color: #999;
+}
+
+.responses .left{
+    float: left;
+    width: 15%;
+}
+.responses .right{
+    float: right;
+    width: 85%;
+}
+.responses .right div{
+    color: #727272;
+    float: right;
+}
+.responses h3, .responses .right span{
+    color: #6ea145;
+    margin-left: 10px;
+}
+.responses .item{
+    overflow: hidden;
+    margin: 2em 0;
+}
+.responses .replay{
+    float: left;
+    margin-left: 15%;
+    margin-top: 2em;
+}
+
+.comment h3{
+    margin: 2em 0 1em;
+}
+.comment input{
+    border-radius: 0;
+    margin-bottom: 1em;
+    width: 70%;
+}
+.comment textarea{
+    border-radius: 0;
+    resize: none;
+    margin-bottom: 1em;
+}

@@ -1,0 +1,67 @@
+.about{
+    padding: 80px 0;
+}
+.about .right h3{
+    font-size: 28px;
+    color: #6ea145;
+}
+.about .right h4{
+    margin: 1em 0;
+    font-size: 15px;
+    color: #9D4922;
+}
+.about .right p{
+    color: #999;
+    line-height: 2em;
+    margin-bottom: 40px;
+}
+.products h3{
+    color: #9D4922;
+}
+.products p{
+    color: #999;
+    line-height: 1.6em;
+}
+.products a{
+    margin: 20px 0 30px 0;
+}
+.contact{
+    padding: 5em 0;
+    background: #E6E6E6;
+}
+.contact h3{
+    color: #6ea145;
+    font-size: 40px;
+}
+.contact_form {
+    padding: 20px 10px;
+}
+.contact_form *{
+    float: left;
+    border-radius: 0;
+}
+.contact_form input{
+    width: 70% !important;
+    padding: 25px 10px;
+}
+.contact_form button{
+    width: 20%;
+    padding: 15px 10px;
+    background:#6ea145 url("../images/1.png") center center no-repeat;
+}
+.index_slider{
+    margin: 2rem 0 4rem;
+}
+.index_slider p{
+    color: #999;
+    line-height: 1.6em;
+    margin: 2rem 0;
+}
+.index_slider .btn{
+    margin:0 0 2rem 0;
+}
+
+/* 显示header中的文字信息 */
+#header .header_info{
+    display: block;
+}

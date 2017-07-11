@@ -1,0 +1,30 @@
+.blog_wrap h3{
+    color: #6ea145;
+    font-size: 2.5em;
+}
+.blog_wrap h4{
+    color: #6ea145;
+    font-size: 2em;
+    margin: 1.5em 0 1em;
+}
+.contact_form form > div{
+    padding-left: 0;
+}
+.contact_form input{
+    margin-bottom: 1em;
+    border-radius: 0;
+}
+.contact_form textarea{
+    display: block;
+    margin-right: 15px;
+    border-radius: 0;
+    resize: none;
+}
+.contact_wrap p{
+    color: #999;
+    line-height: 2em;
+}
+.contact_wrap .btn-success{
+    margin: 2em 0 4em;
+    padding: 10px 50px;
+}
